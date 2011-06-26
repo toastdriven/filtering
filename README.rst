@@ -12,6 +12,7 @@ To setup:
 To test:
 
 * In browser:
+
   * Hit http://localhost:8000/api/v1/parent/?format=json - there should be two
     parents there. (Same as your setup)
   * Hit http://localhost:8000/api/v1/child/?format=json - there should be three
