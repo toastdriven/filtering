@@ -1,13 +1,15 @@
 M2M Filtering
 =============
 
-To replicate:
+To setup:
 
 * Clone this repo.
 * Use a virtualenv (or symlink in tastypie).
 * ``./manage.py syncdb``
 * ``./manage.py loaddata base_data``
 * ``./manage.py runserver``
+
+To test:
 
 * In browser:
   * Hit http://localhost:8000/api/v1/parent/?format=json - there should be two
