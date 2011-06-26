@@ -1,0 +1,40 @@
+[
+  {
+    "pk": 1,
+    "model": "filterme.parent",
+    "fields": {
+      "name": "Bob"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "filterme.parent",
+    "fields": {
+      "name": "Sally"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "filterme.child",
+    "fields": {
+      "parents": [1, 2],
+      "first_name": "Billy"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "filterme.child",
+    "fields": {
+      "parents": [1],
+      "first_name": "Jane"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "filterme.child",
+    "fields": {
+      "parents": [2],
+      "first_name": "Tommy"
+    }
+  }
+]
