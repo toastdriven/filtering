@@ -2,6 +2,7 @@ M2M Filtering
 =============
 
 To replicate:
+
 * Clone this repo.
 * Use a virtualenv (or symlink in tastypie).
 * ``./manage.py syncdb``
